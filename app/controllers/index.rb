@@ -1,4 +1,5 @@
 get '/' do
+  @roll||=Roll.first
   erb :index
 end
 
